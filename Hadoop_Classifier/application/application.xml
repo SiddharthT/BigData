@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application-template xmlns="http://biginsights.ibm.com/application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <name>Tweet Classifier ( TCS Information Management Team )</name>
+  <description>This application uses hadoop to classisfy tweets based on predefined generic rule-set.</description>
+  <categories>IM</categories>
+  <properties>
+      <property isRequired="true" uitype="textfield" isOutputPath="false" paramtype="DIRECTORYPATH" label="Input path" name="inputDir" description="path to the input directory" />
+      <property isRequired="true" uitype="textfield" isOutputPath="true"  paramtype="DIRECTORYPATH" label="Output path" name="outputDir" description="path to the output directory" />
+  </properties>
+  <localContextPath>/path/toapplibs</localContextPath>
+  <imagePath>wordCount_L.png</imagePath>
+</application-template>
