@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+<property>
+  <name>mapred.job.tracker</name>
+  <value>imbdbox1:54311</value>
+  <description>The host and port that the MapReduce job tracker runs
+  at.  If "local", then jobs are run in-process as a single map
+  and reduce task.
+  </description>
+</property>
+<property>
+<name>mapred.map.tasks></name>
+<value>10</value>
+</property>
+<property>
+<name>mapred.reduce.tasks</name>
+<value>2</value>
+</property>
+<property> 
+  <name>mapred.jobtracker.taskScheduler</name> 
+  <value>org.apache.hadoop.mapred.FairScheduler</value> 
+</property>
+<property>
+  <name>mapred.queue.names</name>
+  <value>sidq1,sidq2</value>
+</property>
+<property>
+<name>mapred.job.queue.name</name>
+<value>sidq1</value>
+</property>
+<property>
+<name>mapred.fairscheduler.allocation.file</name>
+<value>/usr/local/hadoop/conf/alcpool.xml</value>
+</property>
+
+</configuration>
