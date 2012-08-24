@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/poi-3.8/poi-3.8-20120326.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/poi-3.8/poi-examples-3.8-20120326.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/poi-3.8/poi-excelant-3.8-20120326.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/poi-3.8/poi-ooxml-3.8-20120326.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/poi-3.8/poi-ooxml-schemas-3.8-20120326.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/poi-3.8/poi-scratchpad-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/poi-3.8/ooxml-lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/poi-3.8/ooxml-lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/poi-3.8/ooxml-lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/itextpdf-5.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/itextpdf-5.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/itextpdf-5.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/itext-pdfa-5.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/itext-pdfa-5.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/itext-pdfa-5.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/itext-xtra-5.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/itext-xtra-5.3.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Siddharth/Downloads/Compressed/itext-xtra-5.3.1-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
